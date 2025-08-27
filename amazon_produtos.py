@@ -2,106 +2,13 @@ import pandas as pd
 
 # Dicionário com os produtos e seus links de imagem (imagem principal e adicionais)
 produtos_imagens = {
-    "Luminária LED - Palmeiras": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0050_2_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0050_2_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0049_1_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0051_3_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0052_4_11zon.webp",
-        ]
-    },
-    "Luminária LED - Santos": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0061_13_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0061_13_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0056_8_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0057_9_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0058_10_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0059_11_11zon.webp",
-        ]
-    },
-    "Luminária LED - Gremio": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0068_20_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0068_20_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0065_17_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0064_16_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0063_15_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0066_18_11zon.webp",
-        ]
-    },
-    "Luminária LED - Internacional": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0074_26_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0074_26_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0071_23_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0069_21_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0070_22_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0072_24_11zon.webp",
-        ]
-    },
-    "Luminária LED - Vasco": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0082_34_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0082_34_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0075_27_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0078_30_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0077_29_11zon.webp",
-        ]
-    },
-    "Luminária LED - Corinthians": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0090_42_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0090_42_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0083_35_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0084_36_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0085_37_11zon.webp",
-        ]
-    },
     "Luminária LED - São paulo": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0097_49_11zon.webp",
+        "principal": "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
         "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0097_49_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0091_43_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0089_41_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0092_44_11zon.webp",
-        ]
-    },
-    "Luminária LED - Cruzeiro": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0102_54_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0102_54_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0099_51_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0098_50_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0096_48_11zon.webp",
-        ]
-    },
-    "Luminária LED - Flamengo": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0117_69_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0117_69_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0111_63_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0112_64_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0113_65_11zon.webp",
-        ]
-    },
-    "Luminária LED - Botafogo": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0123_75_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0123_75_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0120_72_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0118_70_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0121_73_11zon.webp",
-        ]
-    },
-    "Luminária LED - Fluminense": {
-        "principal": "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0131_83_11zon.webp",
-        "adicionais": [
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0131_83_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0126_78_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0128_80_11zon.webp",
-            "http://www.fabricalumi.com.br/media/catalog/product/i/m/img-20250715-wa0127_79_11zon.webp",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
         ]
     },
 }
@@ -202,7 +109,9 @@ for i, produto in enumerate(produtos, start=1):
     # BA vazio
     linha[53] = "DEFAULT"  # BB = 26 + 1 = 53
     linha[54] = 1000  # BC = 26 + 2 = 54
-    # BD até BO vazios
+    # BD até BF vazios
+    linha[58] = 59.9  # BG = 26 + 6 = 58
+    # BH até BO vazios
     linha[67] = descricao_produto  # BP = 26 + 15 = 67
     linha[68] = "Luminaria para decoração"  # BQ = 26 + 16 = 68
     # BR até CL vazios
@@ -212,33 +121,30 @@ for i, produto in enumerate(produtos, start=1):
     # CT até CZ vazios
     linha[104] = 1  # DA = 26*3 + 0 = 104
     # DB até DL vazios
-    linha[116] = "Alimentado por pilha"  # DM = 26*3 + 12 = 116
-    # DN até FG vazios
-    linha[163] = "Cabo de energia"  # FH = 156 + 7 = 163
-    # FI até HS vazios
-    linha[227] = 5.0  # HT = 208 + 19 = 227
-    linha[228] = "centímetros"  # HU = 208 + 20 = 228
-    linha[229] = 20.0  # HV = 208 + 21 = 229
-    linha[230] = "centímetros"  # HW = 208 + 22 = 230
-    linha[231] = 15  # HX = 208 + 23 = 231
-    linha[232] = "centímetros"  # HY = 208 + 24 = 232
-    # HZ até IE vazios
-    linha[239] = "Brasil"  # IF = 26*8 + 5 = 239
-    # IG até JD vazios
-    linha[264] = "Não aplicável"  # JE = 26*9 + 4 = 264
-    # JF até JQ vazios
-    linha[277] = 250.0  # JR = 26*9 + 17 = 277
-    linha[278] = "Gramas"  # JS = 26*9 + 18 = 278
-    # JT vazio
-    linha[280] = "INMETRO: 0000; ANATEL: 0000; Não aplicável"  # JU = 26*9 + 20 = 280
+    linha[127] = "Alimentado por pilha"  # DX = 26*3 + 19 = 97
+    linha[174] = "Cabo de energia"  #fs
     
+  
+
+    
+    linha[244] = 15  # IK
+    linha[245] = "centímetros"  # IL
+    linha[246] = 15  # IM
+    linha[247] = "centímetros"  # IN
+    linha[248] = 5  # IO
+    linha[249] = "centímetros"  # IP
+    linha[256] = "Brasil"  # IW
+    linha[281] = "Não aplicável"  
+    linha[297] = "INMETRO: 0000; ANATEL: 0000; Não aplicável"  
+
+   
     linhas.append(linha)
 
 # Criar DataFrame
 df = pd.DataFrame(linhas, columns=colunas_letras)
 
 # Escrever para Excel
-df.to_excel("produtos_amazon_atualizado.xlsx", index=False)
+df.to_excel("produtos_amazon_final.xlsx", index=False)
 
 print("Arquivo 'produtos_amazon_atualizado.xlsx' criado com sucesso!")
 print(f"Total de produtos: {len(produtos)}")

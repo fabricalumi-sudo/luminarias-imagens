@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_palmeiras.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_santos.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_gremio.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_internacional.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_vasco.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_corinthians.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_saopaulo.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_cruzeiro.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_flamengo.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_botafogo.png
+https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/main/imagens/luminaria_fluminense.png
