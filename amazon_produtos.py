@@ -2,13 +2,13 @@ import pandas as pd
 
 # Dicionário com os produtos e seus links de imagem (imagem principal e adicionais)
 produtos_imagens = {
-    "Luminária LED - São paulo": {
-        "principal": "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
+    "Luminária LED - São paulo teste": {
+        "principal": "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/flamengao.png",
         "adicionais": [
-            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
-            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
-            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
-            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/imagens/luminaria_saopaulo.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/flamengao.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/flamengao.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/flamengao.png",
+            "https://raw.githubusercontent.com/fabricalumi-sudo/luminarias-imagens/refs/heads/main/flamengao.png",
         ]
     },
 }
